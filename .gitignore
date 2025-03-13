@@ -1,5 +1,8 @@
 build
 .png
+.jpg
+.pgm
+.Identifier
 .moc
 .o
 .h
