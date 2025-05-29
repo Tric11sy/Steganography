@@ -149,7 +149,7 @@ private slots:
                 }
     
                 double avgDeltaBlue = (validPixelCount > 0) ? deltaBlueSum / validPixelCount : 0.0;
-                int bit = (avgDeltaBlue > 0) ? 255 : 0;  // Еще больше упрощаем, убираем alpha
+                int bit = (avgDeltaBlue > 0) ? 255 : 0;
                 extractedWatermark.setPixelColor(x, y, QColor(bit, bit, bit));
             }
         }
